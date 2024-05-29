@@ -10,12 +10,13 @@ int fib(int n, int dp[])
         return n;
     }
 
-    // Recursive case
+    // Look up if n is already computed then return otherwise rec case
     if (dp[n] != 0)
     {
         return dp[n];
     }
 
+    // Recursive case
     int ans = fib(n - 1, dp) + fib(n - 2, dp);
     return (dp[n] = ans);
 }
@@ -30,3 +31,7 @@ int main()
 
     return 0;
 }
+
+// NOTE : Top-down approach is the recursive approach with mamoziation
+
+//  TOP-DOWN DYANAMIC PROGRAMMING = RECURSIVE + MEMOIZATION

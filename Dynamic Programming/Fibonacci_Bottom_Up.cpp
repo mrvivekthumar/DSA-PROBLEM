@@ -2,8 +2,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int fib(int n, int dp[])
+int fib(int n)
 {
+    int dp[n + 1] = {0};
     // Base case
     if (n == 0 or n == 1)
     {
@@ -45,10 +46,11 @@ int main()
     int n;
     cin >> n;
 
-    int dp[n + 1] = {0};
-
-    cout << fib(n, dp) << endl;
+    cout << fib(n) << endl;
     cout << fibWithSpaceOptimization(n) << endl;
 
     return 0;
 }
+
+// NOTE : Bottom up is a iterative approach
+//        in which just need to compute from previous dp array.
