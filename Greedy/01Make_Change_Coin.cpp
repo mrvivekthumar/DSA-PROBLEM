@@ -1,5 +1,5 @@
-#include <iostream>
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int make_change_coin(int coins[], int n, int money)
