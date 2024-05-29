@@ -10,7 +10,7 @@ int fib(int n, int dp[])
         return n;
     }
 
-    // Recursion case
+    // Recursive case
     if (dp[n] != 0)
     {
         return dp[n];
