@@ -7,19 +7,17 @@ using namespace std;
 int Minimum_Steps_Bottom_Up(int n)
 {
 
-    int dp[n + 1];
+    int dp[n + 1] = {0};
     // Base case
-    dp[1] = 0;
-
     for (int i = 2; i <= n; i++)
     {
         int option1 = INT_MAX, option2 = INT_MAX, option3 = INT_MAX;
 
-        if (n % 3 == 0)
+        if (i % 3 == 0)
         {
             option1 = dp[i / 3];
         }
-        if (n % 2 == 0)
+        if (i % 2 == 0)
         {
             option2 = dp[i / 2];
         }
