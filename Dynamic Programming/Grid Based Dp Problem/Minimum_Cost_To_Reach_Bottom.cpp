@@ -26,7 +26,6 @@ int Minimum_Cost_To_Reach_Bottom(int cost[3][3], int row, int column, int dp[4][
             }
         }
     }
-
     return dp[row - 1][column - 1];
 };
 
