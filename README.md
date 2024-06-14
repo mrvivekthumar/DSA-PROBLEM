@@ -3,77 +3,45 @@
 This repository contains solutions to various problems in Dynamic Programming, Greedy Algorithms, and Recursion & Backtracking. Each section is organized into specific problem sets or topics with source code files for each problem.
 
 ## Folder Structure
-.
-│
-├── dynamic_programming
-│   ├── dp_problem_set_1
-│   │   ├── A_Frog_1.cpp
-│   │   ├── B_Frog_2.cpp
-│   │   ├── C_Vacation.cpp
-│   │   └── D_Knapsack1.cpp
-│   ├── dp_problem_set_2
-│   │   ├── E_Knapsack2.cpp
-│   │   └── F_Lcs.cpp
-│   ├── general_dp_problems
-│   │   ├── Coin_Change_Bottom_Up.cpp
-│   │   ├── Coin_Change_Top_Down.cpp
-│   │   ├── Fibonacci_Bottom_Up.cpp
-│   │   ├── Fibonacci_Top_Down.cpp
-│   │   ├── Ladders_Bottom_Up.cpp
-│   │   ├── Ladders_Top_Down.cpp
-│   │   ├── Lcs_Problem.cpp
-│   │   ├── Maximum_Subarray_Sum.cpp
-│   │   ├── Minimum_Steps_To_Reach_1.cpp
-│   │   ├── Road_Cutting.cpp
-│   │   └── Wines_Problem_Top_Down.cpp
-│   └── grid_based_dp_problems
-│       └── Minimum_Cost_To_Reach_Bottom.cpp
-│
-├── greedy
-│   ├── Make_Change_Coin.cpp
-│   └── Busy_Man.cpp
-│
-└── recursion_backtracking
-    ├── section_1
-    │   ├── binary_Search.cpp
-    │   ├── fibonacci.cpp
-    │   ├── multiplication.cpp
-    │   ├── power.cpp
-    │   └── sorted_Array.cpp
-    ├── section_2
-    │   ├── all_Occurance.cpp
-    │   ├── bubble_Sort.cpp
-    │   ├── fast_Power.cpp
-    │   ├── first_Occurance.cpp
-    │   ├── improved_BubbleSort.cpp
-    │   ├── last_Occurance.cpp
-    │   ├── merge_Sort.cpp
-    │   └── quick_Sort.cpp
-    ├── section_3
-    │   ├── count_Binary_Strings.cpp
-    │   ├── friends_Pairing_Problem.cpp
-    │   ├── ladder_Problems.cpp
-    │   ├── place_The_Tiles.cpp
-    │   ├── print_Numbers.cpp
-    │   ├── replace_Pi.cpp
-    │   ├── string_To_Int.cpp
-    │   └── tower_Of_Hanoi.cpp
-    ├── section_4
-    │   ├── 0_1_Knapsack.cpp
-    │   ├── generate_Brackate.cpp
-    │   ├── generate_String_From_Numbers.cpp
-    │   ├── phone_Keypad.cpp
-    │   └── subsequence_Generation.cpp
-    ├── section_5
-    │   ├── Knight_chess_problem.cpp
-    │   ├── N_Queen.cpp
-    │   ├── permutation.cpp
-    │   ├── rate_In_Maze.cpp
-    │   └── sudoku_Solver.cpp
-    └── section_6_exercise
-        ├── count_The_Binary_Strings.cpp
-        └── Tilling_Problem_2.cpp
 
+### Dynamic Programming
+
+This section contains problems and solutions related to Dynamic Programming (DP).
+
+- **DP Problem Set 1**:
+  - `A_Frog_1.cpp`
+  - `B_Frog_2.cpp`
+  - `C_Vacation.cpp`
+  - `D_Knapsack1.cpp`
+
+- **DP Problem Set 2**:
+  - `E_Knapsack2.cpp`
+  - `F_Lcs.cpp`
+
+- **General DP Problems**:
+  - `Coin_Change_Bottom_Up.cpp`
+  - `Coin_Change_Top_Down.cpp`
+  - `Fibonacci_Bottom_Up.cpp`
+  - `Fibonacci_Top_Down.cpp`
+  - `Ladders_Bottom_Up.cpp`
+  - `Ladders_Top_Down.cpp`
+  - `Lcs_Problem.cpp`
+  - `Maximum_Subarray_Sum.cpp`
+  - `Minimum_Steps_To_Reach_1.cpp`
+  - `Road_Cutting.cpp`
+  - `Wines_Problem_Top_Down.cpp`
+
+- **Grid Based DP Problems**:
+  - `Minimum_Cost_To_Reach_Bottom.cpp`
+
+### Greedy Algorithms
+
+This section contains problems and solutions related to Greedy Algorithms.
+
+- `Make_Change_Coin.cpp`
+- `Busy_Man.cpp`
+
+### Recursion & Backtracking
 
 This section contains problems and solutions related to Recursion and Backtracking.
 
