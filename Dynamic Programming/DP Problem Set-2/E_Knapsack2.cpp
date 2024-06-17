@@ -33,7 +33,7 @@ int D_Knapsack(vector<item> ar, int n, int W)
             dp[i][v] = dp[i - 1][v];
             if (ar[i].val <= v)
             {
-                dp[i][v] = max(dp[i][v], ar[i].val + dp[i - 1][v - ar[i].val]);
+                dp[i][v] = min(dp[i][v], ar[i].wt + dp[i - 1][v - ar[i].val]);
             }
         }
     }
@@ -42,7 +42,7 @@ int D_Knapsack(vector<item> ar, int n, int W)
 
     for (int x = 0; x <= maxVal; x++)
     {
-        if (dp[n][x] = W)
+        if (dp[n][x] <= W)
         {
             ans = x;
         }
