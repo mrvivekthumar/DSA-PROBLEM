@@ -1,3 +1,4 @@
+// Problem link : "https://www.spoj.com/problems/BALIFE/"
 #include <bits/stdc++.h>
 using namespace std;
 int main()

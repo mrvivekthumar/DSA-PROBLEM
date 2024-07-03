@@ -1,3 +1,4 @@
+// Problem link : "https://www.spoj.com/problems/BAISED/"
 #include <iostream>
 #include <bits/stdc++.h>
 #define inf 1e9
