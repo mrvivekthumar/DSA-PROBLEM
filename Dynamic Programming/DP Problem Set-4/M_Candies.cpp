@@ -9,7 +9,6 @@ int M_Candies(vector<int> &v, int n, int k)
     {
         dp[1][j] = (j > v[1]) ? 0 : 1;
     }
-
     for (int i = 2; i <= n; i++)
     {
         for (int j = 0; j <= k; j++)
