@@ -14,9 +14,8 @@ int count_binary_strings(string c[][3], int n)
     }
     // rec case
     int ans = 0;
-    
 
-    count_binary_strings(c, n - 1);
+    return count_binary_strings(c, n - 1);
 }
 int main()
 {
