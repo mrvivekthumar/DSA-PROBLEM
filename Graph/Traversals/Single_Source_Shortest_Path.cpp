@@ -18,7 +18,7 @@ public:
         queue<T> q;
 
         // All other node is at INT_MAX
-
+g
         for (auto node_pair : l)
         {
             T node = node_pair.first;
