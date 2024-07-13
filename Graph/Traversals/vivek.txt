@@ -1,0 +1,1 @@
+Distance travel by the level order traversal is the = sortest distance. so if we want to find distance then use level order traversal.
