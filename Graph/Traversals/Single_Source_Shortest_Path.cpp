@@ -18,7 +18,6 @@ public:
         queue<T> q;
 
         // All other node is at INT_MAX
-g
         for (auto node_pair : l)
         {
             T node = node_pair.first;
@@ -59,6 +58,7 @@ int main()
     g.addEdge(0, 1);
     g.addEdge(1, 2);
     g.addEdge(2, 3);
+    g.addEdge(0, 3);
     g.addEdge(3, 4);
     g.addEdge(4, 5);
 
