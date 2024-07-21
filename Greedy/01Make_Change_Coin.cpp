@@ -11,7 +11,6 @@ int make_change_coin(int coins[], int n, int money)
         money -= coins[idx];
         ans++;
     }
-
     return ans;
 }
 
@@ -22,6 +21,5 @@ int main()
     int money;
     cin >> money;
     cout << make_change_coin(coins, n, money);
-
     return 0;
 }
