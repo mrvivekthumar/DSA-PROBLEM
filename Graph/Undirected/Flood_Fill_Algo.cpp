@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -14,7 +14,5 @@ int main()
             cin >> input[i][j];
         }
     }
-    //  i will start soonmy project dsa
-
     return 0;
 }
