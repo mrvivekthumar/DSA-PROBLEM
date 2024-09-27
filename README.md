@@ -29,7 +29,6 @@ This section contains problems and solutions related to Dynamic Programming (DP)
   - `Maximum_Subarray_Sum.cpp`
   - `Minimum_Steps_To_Reach_1.cpp`
   - `Road_Cutting.cpp`
-  - `Wines_Problem_Top_Down.cpp`
 
 - **Grid Based DP Problems**:
   - `Minimum_Cost_To_Reach_Bottom.cpp`
